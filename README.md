@@ -16,9 +16,8 @@ Using OOP technique implement a back account management application providing fo
 
 ## Description
 
-- A "plug-in" Python mechanism that log metrics to persistent storage, be it a DB or file;
-  - The sending should be abstract, nothing specific;
-- This "plug-in" is used for functions. It gets the returned result and forwards it to the said persistent storage;
+Implement a generic "plug-in" Python mechanism that log metrics to persistent storage, be it a DB or file;
+- This "plug-in" is used for functions. It gets the name of the function, actual parameters calue and returned result and logg it to the said persistent storage;
 - This mechanism would be configurable, either through file, dictionary or Python object which would point to the said persistent storage and maybe format the metrics;
 - This mechanism would not wait for confirmation from the storage space (optional);
 - The metrics could be numeric results, events as string, timestamps or time intervals;
@@ -33,4 +32,4 @@ Considering an adding function (`def add(a: int, b: int) -> int`). If the "plug-
 
 ## Description 
 
-Integrate Metrics logger plug-in module with Banck accounts manager application so that each transfer operation to be logged 
+Integrate Metrics logger plug-in module with Banck accounts manager application so that each transfer operation to be logged. 
