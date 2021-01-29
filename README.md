@@ -1,4 +1,4 @@
-# Bank Accounts Manager 
+# Exercise 1 - Bank Accounts Manager 
 
 ## Description
 
@@ -12,7 +12,7 @@ Using OOP technique implement a back account management application providing fo
 - Display all accounts financial details: avarage account value, total value of all accounts of all users, user with maximum money in account;
 - Interaction with system is done through a a text based (console) menu interface;
 
-# Metrics Logger
+# Excercise 2 - Metrics Logger
 
 ## Description
 
@@ -28,3 +28,9 @@ Using OOP technique implement a back account management application providing fo
 Considering an adding function (`def add(a: int, b: int) -> int`). If the "plug-in" mechanism is activated and it is configured to log messages in a file then for each method call a message in the following form will be displayed:
 
 '12-02-2020 18:21 call func add (2, 10) -> 12' 
+
+# Exercise 3 - Integration 
+
+## Description 
+
+Integrate Metrics logger plug-in module with Banck accounts manager application so that each transfer operation to be logged 
